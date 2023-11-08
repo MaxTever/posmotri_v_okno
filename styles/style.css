@@ -108,7 +108,7 @@ ol {
   display: flex;
   width: fit-content;
   color: #FFF;
-  font-family: 'Fira Sans' Condensed;
+  font-family: 'Fira Sans Condensed', sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -125,7 +125,7 @@ ol {
 .search-form__fieldset-title {
   padding-bottom: 5px;
   color: #FFF;
-  font-family: 'Fira Sans' Condensed;
+  font-family: 'Fira Sans Condensed', sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -134,10 +134,10 @@ ol {
 
 .search-form__textfield {
   background-color: transparent;
-  font-family: 'Fira Sans' Condensed;
-  font-size: 16.5px;
+  font-family: 'Fira Sans Condensed', sans-serif;
+  font-size: 18px;
   font-weight: 400;
-  color: inherit;
+  color: rgba(255, 255, 255, 0.70);
   line-height: 22px;
   min-width: 228px;
   border-top: 1px solid #FFF;
@@ -307,7 +307,7 @@ ol {
   align-items: center;
   color: #FFF;
   text-align: center;
-  font-family: 'Fira Sans', Condensed;
+  font-family: 'Fira Sans Condensed', sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
@@ -341,7 +341,7 @@ ol {
 
 .more-button {
   height: 34px;
-  width: 399px;
+  width: 100%;
 }
 
 /* end Стилизация кнопок */
